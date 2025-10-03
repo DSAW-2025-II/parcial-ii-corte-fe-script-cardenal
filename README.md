@@ -1,4 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PzXEPZ_E)
+
+# Daniel Sanabria/Camilo Gutierrez
+**FRONT:** https://dsaw-2025-ii.github.io/parcial-ii-corte-fe-script-cardenal  
+**BACK:** https://parcial-ii-corte-be-script-cardenal.vercel.app
 # 📝 Enunciado del examen
 
 Vas a construir una **arquitectura de tres capas**:
