@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Pokémon - Parcial</title>
+    
+    <!-- Enlace al CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Buscador Pokémon</h1>
+        
+        <!----SECCIÓN DE AUTENTICACIÓN-->
+        <div class="auth-section" id="authSection">
+            <button class="btn" id="loginBtn">
+                🔐 Iniciar Sesión
+            </button>
+            <div id="authStatus"></div>
+        </div>
+
+        <!--SECCIÓN DE BÚSQUEDA-->
+        <div class="search-section" id="searchSection">
+            <div class="input-group">
+                <label for="pokemonName">
+                    Nombre del Pokémon:
+                </label>
+                <input 
+                    type="text" 
+                    id="pokemonName" 
+                    placeholder="Ej: pikachu, charizard, bulbasaur..."
+                    autocomplete="off"
+                >
+            </div>
+            <button class="btn" id="searchBtn">
+                🔎 Buscar Pokémon
+            </button>
+        </div>
+
+        <!--RESULTADO DEL POKÉMON-->
+        <div class="pokemon-result" id="pokemonResult">
+            <h2 id="pokemonTitle">Pokémon encontrado</h2>
+            <img id="pokemonImg" src="" alt="Imagen del Pokémon">
+            <div class="pokemon-info">
+                <p>
+                    <strong>Nombre:</strong> 
+                    <span id="pokemonNameResult"></span>
+                </p>
+                <p>
+                    <strong>Especie:</strong> 
+                    <span id="pokemonSpecies"></span>
+                </p>
+                <p>
+                    <strong>Peso:</strong> 
+                    <span id="pokemonWeight"></span> kg
+                </p>
+            </div>
+        </div>
+
+        <!--MENSAJE DE ERROR -->
+        <div class="error-message" id="errorMessage">
+            ❌ Ups! Pokémon no encontrado
+        </div>
+    </div>
+
+    <!-- Enlace al JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
