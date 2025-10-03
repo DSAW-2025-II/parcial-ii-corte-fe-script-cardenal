@@ -1,6 +1,4 @@
-/* ========================================
-   RESET Y CONFIGURACIÓN GENERAL
-======================================== */
+/* RESET Y CONFIGURACIÓN GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -17,9 +15,7 @@ body {
     padding: 20px;
 }
 
-/* ========================================
-   CONTENEDOR PRINCIPAL
-======================================== */
+/* CONTENEDOR PRINCIPAL*/
 .container {
     background: white;
     border-radius: 20px;
@@ -41,9 +37,7 @@ body {
     }
 }
 
-/* ========================================
-   TÍTULO
-======================================== */
+/* TÍTULO*/
 h1 {
     text-align: center;
     color: #333;
@@ -51,17 +45,13 @@ h1 {
     font-size: 2em;
 }
 
-/* ========================================
-   SECCIÓN DE AUTENTICACIÓN
-======================================== */
+/* SECCIÓN DE AUTENTICACIÓN */
 .auth-section {
     margin-bottom: 30px;
     text-align: center;
 }
 
-/* ========================================
-   BOTONES
-======================================== */
+/*BOTONES*/
 .btn {
     background: #667eea;
     color: white;
@@ -92,9 +82,7 @@ h1 {
     box-shadow: none;
 }
 
-/* ========================================
-   SECCIÓN DE BÚSQUEDA (Oculta por defecto)
-======================================== */
+/*BUSQUEDA*/
 .search-section {
     display: none;
     margin-top: 20px;
@@ -116,9 +104,7 @@ h1 {
     }
 }
 
-/* ========================================
-   INPUT GROUP
-======================================== */
+/*INPUT*/
 .input-group {
     margin-bottom: 20px;
 }
@@ -146,9 +132,7 @@ input[type="text"]:focus {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
-/* ========================================
-   RESULTADO DEL POKÉMON
-======================================== */
+/*POKEMON*/
 .pokemon-result {
     display: none;
     margin-top: 30px;
@@ -192,9 +176,7 @@ input[type="text"]:focus {
     transform: scale(1.1) rotate(5deg);
 }
 
-/* ========================================
-   INFORMACIÓN DEL POKÉMON
-======================================== */
+/* INFO*/
 .pokemon-info {
     text-align: left;
     margin-top: 20px;
@@ -220,9 +202,7 @@ input[type="text"]:focus {
     min-width: 100px;
 }
 
-/* ========================================
-   MENSAJE DE ERROR
-======================================== */
+/* ERROR*/
 .error-message {
     display: none;
     background: #ff6b6b;
@@ -245,9 +225,7 @@ input[type="text"]:focus {
     75% { transform: translateX(10px); }
 }
 
-/* ========================================
-   MENSAJES DE ESTADO
-======================================== */
+/* MENSAJE*/
 .status {
     padding: 12px;
     border-radius: 10px;
@@ -269,9 +247,7 @@ input[type="text"]:focus {
     border: 2px solid #f5c6cb;
 }
 
-/* ========================================
-   LOADING SPINNER
-======================================== */
+/* SIMBOLO CARGA*/
 .loading {
     display: inline-block;
     width: 14px;
@@ -287,9 +263,7 @@ input[type="text"]:focus {
     to { transform: rotate(360deg); }
 }
 
-/* ========================================
-   RESPONSIVE
-======================================== */
+/* RESPONSIVE */
 @media (max-width: 600px) {
     .container {
         padding: 25px;
